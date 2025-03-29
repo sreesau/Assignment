@@ -1,4 +1,5 @@
 **Project Overview**
+
   This React application integrates with the Reqres API to handle user management tasks such as:
     User Authentication (Login)
     Fetching User List from the API
@@ -7,6 +8,7 @@
 
     
 **Setup Instructions**
+
     Clone the repository:
      git clone https://github.com/yourusername/repository-name.git
     Navigate to the project folder:
