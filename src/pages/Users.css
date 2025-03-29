@@ -1,0 +1,110 @@
+.users-container {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #333333;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+.header h2 {
+  flex: 1; 
+  text-align: center;
+  font-size: 30Px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.logout-btn {
+  background: #ffffff;
+  color:#443627 ;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  transform: scale(1.05);
+}
+
+.users-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.user-card img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.user-card h3 {
+  margin: 10px 0;
+}
+
+.edit-btn, .delete-btn {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.edit-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #DC3545;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page-btn {
+  background: #444D56;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.page-btn.active {
+  background:  #007BFF ;
+}
+
+.page-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
