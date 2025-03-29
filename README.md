@@ -1,10 +1,10 @@
 **Project Overview**
 
 This React application integrates with the Reqres API to handle user management tasks such as:
- User Authentication (Login)
- Fetching User List from the API
- Editing User Details
- Deleting Users
+ -User Authentication (Login)
+ -Fetching User List from the API
+ -Editing User Details
+ -Deleting Users
     
 **Setup Instructions**
 
